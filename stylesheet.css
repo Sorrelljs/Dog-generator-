@@ -38,3 +38,9 @@
   padding-left: 55px;
   width: 60px;
 }
+
+h1 {
+  letter-spacing: 10px;
+  text-align-last: center;
+  text-transform: uppercase;
+}
