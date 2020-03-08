@@ -1,0 +1,40 @@
+/* body {
+  background: black;
+  color: white;
+} */
+
+.add-doggos {
+  border: 1px solid black;
+  padding: 10px;
+  background: transparent;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.add-doggos:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.doggos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.doggo-image {
+  display: flex;
+  height: 250px;
+  width: 300px;
+  padding: 0 10px 10px 0;
+}
+
+.doggo-image:hover {
+  opacity: 0.7;
+}
+
+.loader {
+  height: 60px;
+  padding-left: 55px;
+  width: 60px;
+}
